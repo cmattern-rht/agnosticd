@@ -1,14 +1,19 @@
 == Author Information
 
-**Author**: Marcos Entenza (mak@redhat.com)
+**Author**: Chuck Mattern (cmattern@redhat.com)
 
 == Overview
 
-*SAP SMART* _config_ will cover the workshop 'SAP Smart Management'. This workshop to be used mainly during pre-sales activities, will showcase the `smart management` value of RHEL for SAP Solutions subscription, levaring Satellite and Insights.
 
-It makes an ideal base infrastructure to build on and can easily be extended via it's `default_vars.yml` to less or more machines and also to different operating system images.
+*SAP HANA DEPLOY MANAGE SATELLITE TOWER* _config_ will cover the workshop 'SAP HANA Deploy and Manage with Satellite and Tower'. 
+
+This workshop is intended for primarily individual client in leadership roles as well as those who are not CLI savvy and is intended to showcase the ability of the RHEL Platform to more efficiently deploy and mange a HANA environment than SLES.
+
+It is a fork of Mak's SAP SMART and we will endevor to maintain the extensibility of his original which can easily be extended via it's `default_vars.yml` to less or more machines and also to different operating system images.
 
 image::topology.png[width=100%]
+
+Text below is from Mak's original and will be updated as we progress
 
 == Supported Cloud Providers
 

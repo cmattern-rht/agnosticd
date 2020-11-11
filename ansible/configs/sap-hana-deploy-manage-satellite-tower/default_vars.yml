@@ -1,8 +1,22 @@
 ## Common repositories
 rhel8_repos:
    - "rhel-8-for-x86_64-baseos-rpms"
+   - "rhel-8-for-x86_64-baseos-e4s-rpms"
    - "rhel-8-for-x86_64-appstream-rpms"
-   - "ansible-2-for-rhel-8-x86_64-rpms"
+   - "rhel-8-for-x86_64-appstream-e4s-rpms"
+   - "rhel-8-for-x86_64-sap-netweaver-rpms"
+   - "rhel-8-for-x86_64-sap-netweaver-e4s-rpms"
+   - "rhel-8-for-x86_64-sap-solutions-rpms"
+   - "rhel-8-for-x86_64-sap-solutions-e4s-rpms"
+   - "satellite-tools-6.7-for-rhel-8-x86_64-rpms"
+   - "satellite-tools-6.7-for-rhel-8-x86_64-e4s-rpms"
+   - "rhel-8-for-x86_64-highavailability-rpms"
+   - "rhel-8-for-x86_64-highavailability-e4s-rpms"
+   - "ansible-2.9-for-rhel-8-x86_64-rpms"
+#ansible repos are for bastion and may not bee needed in the final product, 
+#need to understand what the connection, if any, is between this list and 
+#the Satellite Inventories below is 
+
 
 rhel7_repos:
   - "rhel-7-server-rpms"
